@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans');
+@import "./helpers/variables";
 
 /* Universal Styles */
 
@@ -8,6 +9,17 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: $skyblue;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 /* Bootstrap Overrides */
@@ -22,3 +34,7 @@ body {
 /* Jumbotron */
 
 @import "./layout/jumbotron";
+
+/* Featured Project Section */
+
+@import "./layout/featured-project";

@@ -6,6 +6,15 @@ html {
 body {
   font-family: "Open Sans", sans-serif; }
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399BD1; }
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold; }
+
 /* Bootstrap Overrides */
 .navbar-nav .active {
   color: #399BD1 !important; }
@@ -46,5 +55,9 @@ body {
     font-size: 1.5rem;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     margin-bottom: 2.8rem; }
+
+/* Featured Project Section */
+#featured-project h2 {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
