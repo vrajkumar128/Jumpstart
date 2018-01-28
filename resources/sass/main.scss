@@ -4,9 +4,21 @@
 
 html {
   font-size: 14px;
+}
+
+body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* Bootstrap Overrides */
+
+@import "./components/navbar";
+@import "./components/buttons";
 
 /* Navbar */
 
 @import "./layout/navbar";
+
+/* Jumbotron */
+
+@import "./layout/jumbotron";
