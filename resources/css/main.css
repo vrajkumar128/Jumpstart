@@ -1,3 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton|Open+Sans");
+/* Universal Styles */
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif; }
+
+/* Navbar */
+.navbar {
+  font-size: 1.1rem;
+  font-weight: bold; }
+  .navbar .navbar-nav .active {
+    color: #399BD1 !important; }
 
 /*# sourceMappingURL=main.css.map */

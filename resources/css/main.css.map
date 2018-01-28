@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,wEAAgE",
-"sources": ["../sass/main.scss"],
+"mappings": "AAAQ,wEAAgE;AAExE,sBAAsB;AAEtB,IAAK;EACH,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,uBAAuB;;AAGtC,YAAY;ACTZ,OAAQ;EACN,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;EAEf,2BAAQ;IACN,KAAK,EAAE,kBAAkB",
+"sources": ["../sass/main.scss","../sass/layout/_navbar.scss"],
 "names": [],
 "file": "main.css"
 }
