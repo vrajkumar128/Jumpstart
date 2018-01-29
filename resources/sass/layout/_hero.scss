@@ -1,23 +1,37 @@
-.jumbotron {
-  &.background-bike {
-    background-image: url("../images/jumbotron-bike.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .headline {
-    max-width: 51.3rem;
-    padding: 11.85rem 0;
-    color: white;
-    h1 {
-      font-family: Monoton;
-      font-size: 7.1rem;
-      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+#hero {
+  .jumbotron {
+    &.background-bike {
+      background-image: url("../images/jumbotron-bike.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
-    p {
-      font-size: 1.5rem;
-      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-      margin-bottom: 2.8rem;
+    .headline {
+      max-width: 51.3rem;
+      padding: 11.85rem 0;
+      color: white;
+      h1 {
+        font-family: Monoton;
+        font-size: 7.1rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+      }
+      p {
+        font-size: 1.5rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        margin-bottom: 2.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    .jumbotron {
+      .headline {
+        h1 {
+          font-size: 5.7rem;
+        }
+      }
     }
   }
 }

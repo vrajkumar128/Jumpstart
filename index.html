@@ -16,7 +16,7 @@
   <!-- Header -->
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-      <div class="navbar-nav w-100">
+      <div class="navbar-nav w-100" role="presentation">
         <a class="nav-link active" href="#">Explore</a>
         <a class="nav-link" href="#">Start a project</a>
         <a class="nav-link" href="#">About us</a>
@@ -40,19 +40,21 @@
 
   <!-- Featured Project Section -->
   <section id="featured-project">
-    <div class="container-fluid" role="presentation">
+    <div class="container" role="presentation">
       <h2>Featured Project</h2>
       <div class="row" role="presentation">
-        <figure class="col-lg-6 image-container">
-          <img src="./resources/images/featured-project.png" alt="A house amid a stark landscape" />
-        </figure>
-        <figcaption class="col-xs-6 col-lg-3">
+        <div class="col-md-6" role="presentation">
+          <figure class="image-container">
+            <img src="./resources/images/featured-project.png" alt="A house amid a stark landscape" />
+          </figure>
+        </div>
+        <figcaption class="col-xs-6 col-md-3">
           <h3>DeFrost: A Documentary</h3>
           <span>by Leo de Firenze</span>
           <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing &mdash; her family, friends, pets, and eventual depature
             from a freezing valley in Northern Italy &mdash; through beautiful cinematography and narration.</p>
         </figcaption>
-        <div class="col-xs-6 col-lg-3 d-flex flex-column" id="categories">
+        <div class="col-xs-6 col-md-3 d-flex flex-column" id="categories">
           <h3>Product Categories</h3>
           <a href="#">Art</a>
           <a href="#">Books</a>
@@ -77,10 +79,10 @@
 
   <!-- Project Section -->
   <section id="projects">
-    <div class="container-fluid" role="presentation">
+    <div class="container" role="presentation">
       <h2>Projects</h2>
       <div class="row" role="presentation">
-        <div class="col-lg-4 project">
+        <div class="col-md-4 project">
           <figure class="image-container">
             <img src="./resources/images/project1.png" alt="A woman wearing tights" />
           </figure>
@@ -90,7 +92,7 @@
             <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
           </figcaption>
         </div>
-        <div class="col-lg-4 project">
+        <div class="col-md-4 project">
           <figure class="image-container">
             <img src="./resources/images/project2.png" alt="The interior of a home" />
           </figure>
@@ -100,7 +102,7 @@
             <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
           </figcaption>
         </div>
-        <div class="col-lg-4 project">
+        <div class="col-md-4 project">
           <figure class="image-container">
             <img src="./resources/images/project3.png" alt="A street boutique" />
           </figure>

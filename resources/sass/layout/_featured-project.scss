@@ -1,5 +1,21 @@
+@import "../helpers/variables";
+
 #featured-project {
-  h2 {
-    margin-bottom: 20px;
+  .container {
+    h2 {
+      margin-bottom: 20px;
+      .row {
+        #categories {
+          h3 {
+            color: $skyblue;
+          }
+          a {
+            line-height: 1.4;
+            color: rgba(0, 0, 0, 0.7);
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
