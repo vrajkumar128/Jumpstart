@@ -15,14 +15,14 @@
 
   <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div class="navbar-nav w-100">
         <a class="nav-link active" href="#">Explore</a>
         <a class="nav-link" href="#">Start a project</a>
         <a class="nav-link" href="#">About us</a>
       </div>
-      <a class="navbar-brand collapse navbar-collapse" href="#">
-        <img src="./resources/images/logo.png" alt="Jumpstart logo" />
+      <a class="navbar-brand" href="#">
+        <img class="collapse navbar-collapse" src="./resources/images/logo.png" alt="Jumpstart logo" />
       </a>
     </nav>
   </header>
@@ -30,9 +30,9 @@
   <!-- Hero Section -->
   <section id="hero">
     <div class="jumbotron background-bike">
-      <div class="headline">
+      <div class="headline mx-auto text-center">
         <h1>GET GOING</h1>
-        <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+        <p class="mb-3">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
         <button class="btn btn-lg btn-primary">Jump in</button>
       </div>
     </div>
@@ -46,13 +46,13 @@
         <figure class="col-lg-6 image-container">
           <img src="./resources/images/featured-project.png" alt="A house amid a stark landscape" />
         </figure>
-        <figcaption class="col-md-6 col-lg-3">
+        <figcaption class="col-xs-6 col-lg-3">
           <h3>DeFrost: A Documentary</h3>
           <span>by Leo de Firenze</span>
           <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing &mdash; her family, friends, pets, and eventual depature
-          from a freezing valley in Northern Italy &mdash; through beautiful cinematography and narration.</p>
+            from a freezing valley in Northern Italy &mdash; through beautiful cinematography and narration.</p>
         </figcaption>
-        <div class="col-md-6 col-lg-3 d-flex flex-column" role="presentation">
+        <div class="col-xs-6 col-lg-3 d-flex flex-column" role="presentation">
           <h3>Product Categories</h3>
           <a href="#">Art</a>
           <a href="#">Books</a>
@@ -113,6 +113,15 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="headline mx-auto text-center">
+      <h1>Having trouble thinking of an idea?</h1>
+      <p>Inventor's block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
+      <button class="btn btn-lg btn-primary">Learn more</button>
+    </div>
+  </footer>
 
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

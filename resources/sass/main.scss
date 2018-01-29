@@ -23,7 +23,7 @@ h3 {
 }
 
 span {
-  display: block;
+  margin-bottom: 0.5rem;
 }
 
 /* Bootstrap Overrides */
@@ -47,3 +47,7 @@ span {
 /* Projects Section */
 
 @import "./layout/projects";
+
+/* Footer */
+
+@import "./layout/footer";

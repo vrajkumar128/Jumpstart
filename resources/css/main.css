@@ -16,7 +16,7 @@ h3 {
   font-weight: bold; }
 
 span {
-  display: block; }
+  margin-bottom: 0.5rem; }
 
 /* Bootstrap Overrides */
 .navbar-nav .active {
@@ -49,9 +49,8 @@ header {
   background-position: center;
   background-repeat: no-repeat; }
 .jumbotron .headline {
-  text-align: center;
   width: 51.3rem;
-  margin: 11.85rem auto;
+  padding: 11.85rem 0;
   color: white; }
   .jumbotron .headline h1 {
     font-family: Monoton;
@@ -69,5 +68,18 @@ header {
 /* Projects Section */
 #projects {
   margin-bottom: 5.85rem; }
+
+/* Footer */
+footer {
+  background-color: #F3F3F3; }
+  footer .headline {
+    padding: 5.2rem 0;
+    width: 42rem; }
+    footer .headline h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1.4rem; }
+    footer .headline p {
+      margin-bottom: 2.8rem; }
 
 /*# sourceMappingURL=main.css.map */
