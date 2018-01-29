@@ -22,19 +22,28 @@ h3 {
   font-weight: bold;
 }
 
+span {
+  display: block;
+}
+
 /* Bootstrap Overrides */
 
 @import "./components/navbar";
 @import "./components/buttons";
+@import "./components/containers";
 
-/* Navbar */
+/* Header */
 
-@import "./layout/navbar";
+@import "./layout/header";
 
-/* Jumbotron */
+/* Hero Section */
 
-@import "./layout/jumbotron";
+@import "./layout/hero";
 
 /* Featured Project Section */
 
 @import "./layout/featured-project";
+
+/* Projects Section */
+
+@import "./layout/projects";
