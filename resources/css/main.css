@@ -25,7 +25,10 @@ span {
   display: block;
   margin-bottom: 0.5rem; }
 
-.headline {
+.container-fluid {
+  text-align: center; }
+
+.cta {
   margin: 0 auto;
   text-align: center; }
 
@@ -59,10 +62,6 @@ span {
     .btn.btn-primary:active {
       background-color: #399BD1;
       box-shadow: 0 0 0 rgba(0, 0, 0, 0.5); }
-    .btn.btn-primary:visited {
-      background-color: #399BD1;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-      border: none; }
 
 /* Header */
 header {
@@ -70,27 +69,36 @@ header {
   font-weight: bold; }
 
 /* Hero Section */
-#hero .jumbotron.background-bike {
-  background-image: url("../images/jumbotron-bike.jpg");
+#hero .carousel .jumbotron {
+  height: 44rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-#hero .jumbotron .headline {
-  max-width: 51.3rem;
-  padding: 11.85rem 0;
-  color: white; }
-  #hero .jumbotron .headline h1 {
-    font-family: Monoton;
-    font-size: 7.1rem;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
-  #hero .jumbotron .headline p {
-    font-size: 1.5rem;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    margin-bottom: 2.8rem; }
+  #hero .carousel .jumbotron.background-bike {
+    background-image: url("../images/jumbotron-bike.jpg"); }
+  #hero .carousel .jumbotron.background-beer {
+    background-image: url("../images/jumbotron-beer.jpg"); }
+  #hero .carousel .jumbotron.background-flowers {
+    background-image: url("../images/jumbotron-flowers.jpg"); }
+  #hero .carousel .jumbotron.background-duffel {
+    background-image: url("../images/jumbotron-duffel.jpg"); }
+  #hero .carousel .jumbotron .container-fluid {
+    color: white;
+    margin-top: 11.85rem; }
+    #hero .carousel .jumbotron .container-fluid h1 {
+      font-family: Monoton;
+      font-size: 7.1rem;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
+    #hero .carousel .jumbotron .container-fluid .cta {
+      max-width: 51.3rem; }
+      #hero .carousel .jumbotron .container-fluid .cta p {
+        margin-bottom: 2.8rem;
+        font-size: 1.5rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
 
 @media (max-width: 768px) {
-  #hero .jumbotron .headline h1 {
-    font-size: 5.7rem; } }
+  #hero .carousel .jumbotron .container-fluid h1 {
+    font-size: 5rem; } }
 /* Featured Project Section */
 #featured-project .container h2 {
   margin-bottom: 20px; }
@@ -110,17 +118,18 @@ header {
     margin-bottom: 0; }
     #projects .container .row .project {
       margin-bottom: 5.85rem; } }
-/* Footer */
-footer {
+/* Help Section */
+#help {
   background-color: #F3F3F3; }
-  footer .headline {
-    padding: 5.2rem 0;
-    max-width: 42rem; }
-    footer .headline h1 {
+  #help .container-fluid {
+    padding: 5.2rem 0; }
+    #help .container-fluid h1 {
       font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 1.4rem; }
-    footer .headline p {
-      margin-bottom: 2.8rem; }
+    #help .container-fluid .cta {
+      max-width: 42rem; }
+      #help .container-fluid .cta p {
+        margin-bottom: 2.8rem; }
 
 /*# sourceMappingURL=main.css.map */

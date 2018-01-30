@@ -1,15 +1,21 @@
-footer {
+#help {
   background-color: #F3F3F3;
-  .headline {
+
+  .container-fluid {
     padding: 5.2rem 0;
-    max-width: 42rem;
+
     h1 {
       font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 1.4rem;
     }
-    p {
-      margin-bottom: 2.8rem;
+
+    .cta {
+      max-width: 42rem;
+
+      p {
+        margin-bottom: 2.8rem;
+      }
     }
   }
 }

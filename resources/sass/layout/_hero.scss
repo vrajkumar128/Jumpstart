@@ -1,24 +1,48 @@
+@import "../helpers/variables";
+
 #hero {
-  .jumbotron {
-    &.background-bike {
-      background-image: url("../images/jumbotron-bike.jpg");
+  .carousel {
+    .jumbotron {
+      height: 44rem;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-    }
-    .headline {
-      max-width: 51.3rem;
-      padding: 11.85rem 0;
-      color: white;
-      h1 {
-        font-family: Monoton;
-        font-size: 7.1rem;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+      &.background-bike {
+        background-image: url("../images/jumbotron-bike.jpg");
       }
-      p {
-        font-size: 1.5rem;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-        margin-bottom: 2.8rem;
+
+      &.background-beer {
+        background-image: url("../images/jumbotron-beer.jpg");
+      }
+
+      &.background-flowers {
+        background-image: url("../images/jumbotron-flowers.jpg");
+      }
+
+      &.background-duffel {
+        background-image: url("../images/jumbotron-duffel.jpg");
+      }
+
+      .container-fluid {
+        color: white;
+        margin-top: 11.85rem;
+
+        h1 {
+          font-family: Monoton;
+          font-size: 7.1rem;
+          text-shadow: $outline;
+        }
+
+        .cta {
+          max-width: 51.3rem;
+
+          p {
+            margin-bottom: 2.8rem;
+            font-size: 1.5rem;
+            text-shadow: $outline;
+          }
+        }
       }
     }
   }
@@ -26,10 +50,12 @@
 
 @media (max-width: 768px) {
   #hero {
-    .jumbotron {
-      .headline {
-        h1 {
-          font-size: 5.7rem;
+    .carousel {
+      .jumbotron {
+        .container-fluid {
+          h1 {
+            font-size: 5rem;
+          }
         }
       }
     }

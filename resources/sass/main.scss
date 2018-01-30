@@ -34,7 +34,11 @@ span {
   margin-bottom: 0.5rem;
 }
 
-.headline {
+.container-fluid {
+  text-align: center;
+}
+
+.cta {
   margin: 0 auto;
   text-align: center;
 }
@@ -78,6 +82,6 @@ span {
 
 @import "./layout/projects";
 
-/* Footer */
+/* Help Section */
 
-@import "./layout/footer";
+@import "./layout/help";
