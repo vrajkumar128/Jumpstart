@@ -106,8 +106,7 @@ header {
     color: #399BD1; }
   #featured-project .container h2 .row #categories a {
     line-height: 1.4;
-    color: rgba(0, 0, 0, 0.7);
-    text-decoration: none; }
+    color: rgba(0, 0, 0, 0.7); }
 
 /* Projects Section */
 #projects {

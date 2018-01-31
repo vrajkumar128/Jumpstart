@@ -7,4 +7,17 @@ $(document).ready(function() {
     pauseOnFocus: false,
     pauseOnHover: false
   });
+
+  let lastScrollTop = 0;
+  $(window).scroll(function() {
+    let scrollTop = $(this).scrollTop();
+    if (scrollTop >= lastScrollTop + 50) {
+      const navbarHeight = $('nav').css('height');
+      $('nav').animate({top: "-" + navbarHeight}, 150);
+      lastScrollTop = scrollTop;
+    } else if (lastScrollTop >= scrollTop + 50) {
+      $('nav').animate({top: "0"}, 150);
+      lastScrollTop = scrollTop;
+    }
+  });
 });
