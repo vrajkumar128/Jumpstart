@@ -12,11 +12,11 @@ $(document).ready(function() {
   $(window).scroll(function() {
     let scrollTop = $(this).scrollTop();
     if (scrollTop >= lastScrollTop + 50) {
-      const navbarHeight = $('nav').css('height');
-      $('nav').animate({top: "-" + navbarHeight}, 150);
+      const navbarHeight = $('.navbar').css('height');
+      $('.navbar').animate({top: "-" + navbarHeight}, 150);
       lastScrollTop = scrollTop;
     } else if (lastScrollTop >= scrollTop + 50) {
-      $('nav').animate({top: "0"}, 150);
+      $('.navbar').animate({top: "0"}, 150);
       lastScrollTop = scrollTop;
     }
   });

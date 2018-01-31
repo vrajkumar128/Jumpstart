@@ -75,16 +75,19 @@ header {
   background-position: center;
   background-repeat: no-repeat; }
   #hero .carousel .jumbotron.background-bike {
-    background-image: url("../images/jumbotron-bike.jpg"); }
+    background-image: url("../images/jumbotron-bike.jpg");
+    padding-top: 10rem; }
   #hero .carousel .jumbotron.background-beer {
-    background-image: url("../images/jumbotron-beer.jpg"); }
+    background-image: url("../images/jumbotron-beer.jpg");
+    padding-top: 11.85rem; }
   #hero .carousel .jumbotron.background-flowers {
-    background-image: url("../images/jumbotron-flowers.jpg"); }
+    background-image: url("../images/jumbotron-flowers.jpg");
+    padding-top: 11.85rem; }
   #hero .carousel .jumbotron.background-duffel {
-    background-image: url("../images/jumbotron-duffel.jpg"); }
+    background-image: url("../images/jumbotron-duffel.jpg");
+    padding-top: 11.85rem; }
   #hero .carousel .jumbotron .container-fluid {
-    color: white;
-    margin-top: 11.85rem; }
+    color: white; }
     #hero .carousel .jumbotron .container-fluid h1 {
       font-family: Monoton;
       font-size: 7.1rem;

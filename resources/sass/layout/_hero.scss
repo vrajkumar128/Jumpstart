@@ -10,23 +10,26 @@
 
       &.background-bike {
         background-image: url("../images/jumbotron-bike.jpg");
+        padding-top: 10rem;
       }
 
       &.background-beer {
         background-image: url("../images/jumbotron-beer.jpg");
+        padding-top: 11.85rem;
       }
 
       &.background-flowers {
         background-image: url("../images/jumbotron-flowers.jpg");
+        padding-top: 11.85rem;
       }
 
       &.background-duffel {
         background-image: url("../images/jumbotron-duffel.jpg");
+        padding-top: 11.85rem;
       }
 
       .container-fluid {
         color: white;
-        margin-top: 11.85rem;
 
         h1 {
           font-family: Monoton;
