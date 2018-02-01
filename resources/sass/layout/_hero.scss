@@ -4,6 +4,7 @@
   .carousel {
     .jumbotron {
       height: 44rem;
+      padding-top: 11.85rem;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -15,17 +16,14 @@
 
       &.background-beer {
         background-image: url("../images/jumbotron-beer.jpg");
-        padding-top: 11.85rem;
       }
 
       &.background-flowers {
         background-image: url("../images/jumbotron-flowers.jpg");
-        padding-top: 11.85rem;
       }
 
       &.background-duffel {
         background-image: url("../images/jumbotron-duffel.jpg");
-        padding-top: 11.85rem;
       }
 
       .container-fluid {
@@ -57,7 +55,7 @@
       .jumbotron {
         .container-fluid {
           h1 {
-            font-size: 5rem;
+            font-size: 5.7rem;
           }
         }
       }

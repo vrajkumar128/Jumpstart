@@ -13,12 +13,10 @@
     border: none;
 
     &:hover {
-      background-color: $skyblue;
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
     }
 
     &:active {
-      background-color: $skyblue;
       box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
     }
   }

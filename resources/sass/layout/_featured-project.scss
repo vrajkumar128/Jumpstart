@@ -2,18 +2,22 @@
 
 #featured-project {
   .container {
-    h2 {
-      margin-bottom: 20px;
+    .row {
+      #categories {
+        h3 {
+          color: $skyblue;
+        }
 
-      .row {
-        #categories {
-          h3 {
-            color: $skyblue;
-          }
+        span {
+          display: inline;
+          line-height: 0.9;
 
           a {
-            line-height: 1.4;
             color: rgba(0, 0, 0, 0.7);
+
+            &:hover {
+              color: rgb(0, 63, 114);
+            }
           }
         }
       }

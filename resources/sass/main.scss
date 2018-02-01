@@ -15,6 +15,7 @@ h2 {
   font-size: 1.7rem;
   font-weight: bold;
   color: $skyblue;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -27,6 +28,13 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+a {
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 span {
@@ -45,13 +53,15 @@ span {
 
 .image-container {
   overflow: hidden;
-  & > img {
-    opacity: 0.75;
-    transition: all 0.5s ease-in-out;
-  }
-  & > img:hover {
-    opacity: 1.0;
-    transform: scale(1.3);
+  a {
+    img {
+      opacity: 0.75;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        opacity: 1.0;
+        transform: scale(1.3);
+      }
+    }
   }
 }
 
